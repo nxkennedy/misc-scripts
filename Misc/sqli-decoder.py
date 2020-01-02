@@ -14,7 +14,7 @@ import csv
 
 
 try:
-  with open(sys.argv[1]) as csvfile:
+	with open(sys.argv[1]) as csvfile:
 		with open(sys.argv[2], 'w', newline='') as csvfile2:
 			print("[+] Working...")
 			reader = csv.reader(csvfile)
